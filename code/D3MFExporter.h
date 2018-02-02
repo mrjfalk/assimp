@@ -2,7 +2,8 @@
 Open Asset Import Library (assimp)
 ----------------------------------------------------------------------
 
-Copyright (c) 2006-2017, assimp team
+Copyright (c) 2006-2018, assimp team
+
 
 All rights reserved.
 
@@ -59,7 +60,7 @@ class IOStream;
 namespace D3MF {
 
 #ifndef ASSIMP_BUILD_NO_EXPORT
-#ifndef ASSIMP_BUILD_NO3MF_EXPORTER
+#ifndef ASSIMP_BUILD_NO_3MF_EXPORTER
 
 struct OpcPackageRelationship;
 
@@ -95,7 +96,7 @@ private:
     std::vector<OpcPackageRelationship*> mRelations;
 };
 
-#endif // ASSIMP_BUILD_NO3MF_EXPORTER
+#endif // ASSIMP_BUILD_NO_3MF_EXPORTER
 #endif // ASSIMP_BUILD_NO_EXPORT
 
 } // Namespace D3MF

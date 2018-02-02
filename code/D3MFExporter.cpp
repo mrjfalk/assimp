@@ -2,7 +2,8 @@
 Open Asset Import Library (assimp)
 ----------------------------------------------------------------------
 
-Copyright (c) 2006-2017, assimp team
+Copyright (c) 2006-2018, assimp team
+
 
 All rights reserved.
 
@@ -49,7 +50,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <assimp/Exporter.hpp>
 #include <assimp/DefaultLogger.hpp>
 
-#include "Exceptional.h"
+#include <assimp/Exceptional.h>
 #include "3MFXmlTags.h"
 #include "D3MFOpcPackage.h"
 
@@ -324,5 +325,5 @@ void D3MFExporter::writeRelInfoToFile( const std::string &folder, const std::str
 } // Namespace D3MF
 } // Namespace Assimp
 
-#endif // ASSIMP_BUILD_NO3MF_EXPORTER
+#endif // ASSIMP_BUILD_NO_3MF_EXPORTER
 #endif // ASSIMP_BUILD_NO_EXPORT

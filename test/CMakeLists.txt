@@ -1,7 +1,8 @@
 # Open Asset Import Library (assimp)
 # ----------------------------------------------------------------------
 #
-# Copyright (c) 2006-2017, assimp team
+# Copyright (c) 2006-2018, assimp team
+
 
 # All rights reserved.
 #
@@ -37,9 +38,6 @@
 #
 #----------------------------------------------------------------------
 cmake_minimum_required( VERSION 2.6 )
-
-include( CTest )
-enable_testing()
 
 INCLUDE_DIRECTORIES(
 	../contrib/gtest/include
